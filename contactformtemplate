@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Contact Form Template</title>
+  <link rel="stylesheet" href="styles/contactform.css">
+  <script src="scripts/contactform.js"></script>
+</head>
+
+
+<!----------HEADER---------->
+<header class="header">
+  <h1 class="title" id="title">VR Photo Studio Contact Form</h1>
+  <h2 class="title" id="form-title">______ Contact Form</h2>
+  </header>
+
+
+<!----------FORM---------->
+<form class="contact-form" id="contact-form" method="get" action="mailto:pris.2307@hotmail.com" enctype="text/plain">
+  <p class="description" id="description">Thank you for taking the time to help us to know you better</p>
+
+  <div class="form-group">
+    <label class="label" id="number-label"> ID Number
+        <span class="clue">(optional)</span></label>
+    <input class="form-control" id="idnumber" type="text" placeholder="Enter your ID" />
+  </div>
+  
+  <div class="form-group">
+    <label class="label" id="name-label"> Name</label>
+    <input class="form-control" id="name" type="text" placeholder="Enter your name" required />
+  </div>
+
+  <div class="form-group">
+    <label class="label" id="email-label"> Email</label>
+    <input class="form-control" id="email" type="email" placeholder="Enter your Email" required />
+  </div>
+  
+  <div class="form-group">
+    <label class="label" id="address-label"> Address
+      <span class="clue">(optional)</span></label>
+    <input class="form-control" id="name" type="text" placeholder="Enter your address" required />
+  </div>
+  
+  <div class="form-group">
+    <label class="label" id="phone-label"> Telephone
+        <span class="clue">(optional)</span></label>
+    <input class="form-control" id="phone" type="phone" placeholder="Enter your number" />
+  </div>
+  
+  <div class="form-group">
+    <label class="label" id="number-label"> Age
+        <span class="clue">(optional)</span></label>
+    <input class="form-control" id="number" type="number" placeholder="Age" min="18" max="99" />
+  </div>
+
+  <div class="form-group">
+    <label class="label" id="birthday-label"> Birthday
+        <span class="clue">(optional)</span></label>
+    <input class="form-control" id="birthday" type="date">
+  </div>
+  
+  <br>
+  
+  <div class="form-group">
+    <label class="label" id="role-label">Which option best describes your current role?</label>
+    <select class="form-option" id="dropdown" required>
+        <option disabled selected value>Select current role</option>
+        <option value="particular"> Particular</option>
+        <option value="company"> Company</option>
+        <option value="freelance"> Freelance</option>
+        <option value="other"> Other</option>
+      </select>
+  </div>
+
+    <br>
+  
+  <div class="form-group">
+    <label class="label" id="booking-label">What do you need?</label>
+    <label><input class="input-radio" name="reservation" type="radio" value="companylogo" />Company Logo</label>
+    <label><input class="input-radio" name="reservation" type="radio" value="marketing" />Marketing Design</label>
+  </div>
+  
+  <div class="form-group">
+    <label class="label" id="event-label"> Date of event</label>
+    <input class="form-control" id="pickdate" type="date">
+  </div>
+
+  <div class="form-group">
+    <label class="label" id="place-label"> Location</label>
+    <input class="form-control" id="place" type="text" placeholder="Event location" />
+  </div>
+
+<div class="form-group">
+    <label class="label" id="event-label">Type of design</label>
+    <select class="form-option" id="event">
+        <option disabled selected value>Select an option</option>
+        <option value="logo">Logo</option>
+        <option value="wedding">Wedding</option>
+        <option value="family">Family</option>
+        <option value="social">Social</option>
+        <option value="fashion">Fashion</option>
+        <option value="boudoir">Boudoir</option>
+        <option value="underwater">Underwater</option>
+        <option value="product">Product</option>
+        <option value="other">Other</option>
+      </select>
+  </div>
+  
+    <br>
+    
+  <div class="form-group">
+    <label class="label" id="booking-label">What do you need?</label>
+    <label><input class="input-radio" name="reservation" type="radio" value="companylogo" />Photoshoot</label>
+    <label><input class="input-radio" name="reservation" type="radio" value="marketing" />Videoreport</label>
+    <label><input class="input-radio" name="reservation" type="radio" value="photoshoot" />Photo + Video</label>
+  </div>
+  
+  <div class="form-group">
+    <label class="label" id="event-label"> Date of event</label>
+    <input class="form-control" id="pickdate" type="date">
+  </div>
+
+  <div class="form-group">
+    <label class="label" id="place-label"> Location</label>
+    <input class="form-control" id="place" type="text" placeholder="Event location" />
+  </div>
+
+  <div class="form-group">
+    <label class="label" id="event-label">Type of event</label>
+    <select class="form-option" id="event">
+        <option disabled selected value>Select an option</option>
+        <option value="portrait">Portrait</option>
+        <option value="wedding">Wedding</option>
+        <option value="family">Family</option>
+        <option value="social">Social</option>
+        <option value="fashion">Fashion</option>
+        <option value="boudoir">Boudoir</option>
+        <option value="underwater">Underwater</option>
+        <option value="product">Product</option>
+        <option value="other">Other</option>
+      </select>
+  </div>
+  
+    <br>
+  
+  <div class="form-group">
+    <label class="label" id="material-label">How do you prefer to receive the material? 
+      <span class="clue">(Check all that apply)</span></label>
+    <label><input class="input-checkbox" value="printed" type="checkbox"/>Printed</label>
+    <label><input class="input-checkbox" value="album" type="checkbox"/>Album</label>
+    <label><input class="input-checkbox" value="usbstick" type="checkbox"/>USB</label>
+    <label><input class="input-checkbox" value="cloud" type="checkbox"/>Cloud</label>
+  </div>
+  
+    <br>
+
+  <div class="form-group">
+    <label class="label" id="comments-label">Additional Information</label>
+    <textarea class="input-textarea" id="comments" placeholder="Enter your comment here..."></textarea>
+  </div>
+
+  <div class="form-group">
+    <button class="submit-button" id="submit" type="submit" value="send">Submit</button>
+  </div>
+
+</form>
+
+
+<!----------FOOTER---------->
+  <footer class="footer" id="footer">
+    <p><a href="#top">Back to top</a></p>
+    <p><a href="https://acd58e45df6849209a62df143aa0edb4.production.codepen.plumbing/privacy.html#data-protection" target="_blank">Data</a></p>
+    <p><a href="https://acd58e45df6849209a62df143aa0edb4.production.codepen.plumbing/privacy.html#privacy" target="_blank">Privacy</a></p>
+    <p><a href="https://acd58e45df6849209a62df143aa0edb4.production.codepen.plumbing/privacy.html#terms" target="_blank">Terms</a></p>
+    <p><a href="mailto:pris.2307@hotmail.com" target="_blank">Web Contact</a></p>
+  </footer>
+
+</html>
