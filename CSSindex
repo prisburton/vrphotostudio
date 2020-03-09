@@ -1,0 +1,222 @@
+@import url("https://fonts.googleapis.com/css?family=Quicksand:400,400i,700");
+@import url("https://fonts.googleapis.com/css?family=Bellota:400,400i,700");
+@import url("https://fonts.googleapis.com/css?family=Lobster:400,400i,700");
+@import url("https://fonts.googleapis.com/css?family=Pacifico:400,400i,700");
+@import url("https://use.fontawesome.com/releases/v5.8.2/css/all.css");
+
+:root {
+  font-family: "Quicksand", Arial, sans-serif;
+  font-size: 20px;
+  color: #282828;
+}
+
+/*----------BODY----------*/
+body {
+  background-image: url("https://image.freepik.com/vector-gratis/gradiente-fondo-efecto-bokeh_23-2148374567.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.top {
+  text-decoration: none;
+  visibility: hidden;
+  padding: 0;
+}
+
+#main-doc {
+  position: relative;
+  margin-left: 12rem;
+  margin-right: 2rem;
+}
+
+h1 {
+  text-align: center;
+  padding: 0;
+  margin-bottom: 1.5rem;
+}
+
+#slogan {
+  font-family: "Bellota", Arial, sans-serif;
+  text-align: center;
+  padding: 0;
+  margin-bottom: 3.5rem;
+}
+
+main-section {
+  margin-bottom: 3.5rem;
+}
+
+/*----------NAVBAR----------*/
+.navbar {
+  position: fixed;
+  width: 10rem;
+  height: 100%;
+  border-right: hidden;
+  text-align: center;
+}
+
+#navbar header {
+  height: auto;
+  border-bottom: hidden;
+}
+
+#header-img {
+  height: auto;
+  max-width: 4rem;
+}
+
+#navlist {
+  height: 75%;
+  width: 100%;
+  padding: 0;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+#navlist::-webkit-scrollbar {
+  display: none;
+  }
+}
+
+#navlist li {
+  list-style: none;
+  width: 100%;
+}
+
+#navbar a {
+  display: block;
+  padding: 0.5rem;
+  color: #282828;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/*----------WORK----------*/
+#video {
+  display: flex;
+  justify-content: space-around;
+  padding: 1rem;
+}
+
+.work {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-gap: 1rem;
+  row-gap: 1rem;
+  margin-bottom: 3rem;
+}
+
+.work img {
+  height: 15rem;
+  width: 15rem;
+  object-fit: contain;
+}
+
+.work iframe {
+  height: 15rem;
+  width: 15rem;
+  object-fit: contain;
+}
+
+#work input[type="submit"] {
+  max-width: 3.5rem;
+  width: 100%;
+  height: 1.5rem;
+  margin: 0 0 1rem 0;
+  border: 0;
+  background-color: #f1c40f;
+}
+
+#work input[type="submit"]:hover {
+  background-color: #dc143c;
+  transition: background-color 1s;
+}
+
+
+/*----------CONTACT----------*/
+label {
+  font-size: 1rem;
+}
+
+#contact input[type="submit"] {
+  max-width: 3.5rem;
+  width: 100%;
+  height: 1.5rem;
+  margin: 0 0 1rem 0;
+  border: 0;
+  background-color: #f1c40f;
+}
+
+#contact input[type="submit"]:hover {
+  background-color: #dc143c;
+  transition: background-color 1s;
+}
+
+.contact-links {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 75%;
+  margin-right: 1rem;
+  margin-top: 1rem;
+  flex-wrap: wrap;
+}
+
+.contact-details {
+  font-size: 1rem;
+  transition: transform 0.3s ease-out;
+  text-decoration: none;
+  color: #dc143c;
+}
+
+.contact-details:hover {
+  transform: translateY(3px);
+}
+
+/*----------NEWSLETTER----------*/
+#newsletter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 75%;
+  height: 10rem;
+  margin-top: 2.5rem;
+}
+
+#newsletter input[type="email"] {
+  max-width: 15rem;
+  width: 100%;
+  padding: 0.4rem;
+}
+
+#newsletter input[type="submit"] {
+  max-width: 7rem;
+  width: 100%;
+  height: 1.4rem;
+  margin: 1rem 0;
+  border: 0;
+  background-color: #f1c40f;
+}
+
+#newsletter input[type="submit"]:hover {
+  background-color: #dc143c;
+  transition: background-color 1s;
+}
+
+/*----------FOOTER----------*/
+#footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0.5rem;
+  font-size: 0.7em;
+}
+
+#footer a {
+  color: #282828;
+  text-decoration: none;
+  cursor: pointer;
+}
+
