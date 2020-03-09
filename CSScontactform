@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css?family=Quicksand:400,400i,700");
+
+/*----------BODY----------*/
+body {
+  font-family: "Quicksand", sans-serif;
+  background-image: url("https://image.freepik.com/vector-gratis/gradiente-fondo-efecto-bokeh_23-2148374567.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: #f5f5f5;
+}
+
+/*----------HEADER----------*/
+header {
+  text-align: center;
+  padding: 5px;
+}
+
+/*----------FORM----------*/
+form {
+  background: #483d8b;
+  padding: 25px;
+  border-radius: 10px;
+  opacity: 0.8;
+  max-width: 750px;
+  margin: auto;
+}
+
+.description {
+  font-style: italic;
+  text-align: center;
+}
+
+label {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.clue {
+  margin-left: 5px;
+  font-size: 15px;
+  color: #e4e4e4;
+}
+
+input,
+button,
+select,
+textarea {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  border: 0px solid #495057;
+  border-radius: 5px;
+}
+
+.form-control {
+  display: block;
+  width: 98%;
+  height: auto;
+  margin: auto;
+  padding: 5px;
+  color: #495057;
+  background-color: #faebd7;
+  border: 0px solid #495057;
+  border-radius: 5px;
+}
+
+.form-option {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: auto;
+  padding: 5px;
+  color: #495057;
+  background-color: #faebd7;
+  border: 0px solid #495057;
+  border-radius: 5px;
+}
+
+.input-radio,
+.input-checkbox {
+  display: inline-block;
+  margin-right: 10px;
+  min-height: 1rem;
+  min-width: 1rem;
+}
+
+.input-textarea {
+  min-height: 75px;
+  width: 99%;
+  margin: auto;
+  padding: 5px;
+  resize: vertical;
+  color: #495057;
+  background-color: #faebd7;
+  border: 0px solid #495057;
+  border-radius: 5px;
+}
+
+.submit-button {
+  display: block;
+  margin: 10px auto auto auto;
+  width: 100%;
+  padding: 15px;
+  background: #dc143c;
+  color: inherit;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+}
+
+
+/*----------FOOTER----------*/
+#footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0.5rem;
+  font-size: 0.7em;
+}
+
+#footer a {
+  color: #282828;
+  text-decoration: none;
+  cursor: pointer;
+}
